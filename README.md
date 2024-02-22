@@ -38,4 +38,8 @@
 
 ## useState mais complicado, para casos mais complexos,onde no proprio codigo podemos usar o useState  
 
-### usar quando varias propriedades do seu state depender de uma das outras 
+### usar quando varias propriedades do seu state depender de uma das outras
+
+## => useContext()
+
+### serve para passar propriedades para uma arvore de components

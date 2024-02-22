@@ -1,11 +1,12 @@
-import Reducer from "./hooks/Reducer"
+import Message from "./hooks/Message"
+
 
 function App() {
  
   return (
-    <main>
-      <Reducer/>
-    </main>
+    <ThemeContextProvider>
+      <Message/>
+    </ThemeContextProvider>
 
   )
 }
