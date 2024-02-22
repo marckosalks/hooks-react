@@ -22,7 +22,7 @@
 
 ## da para emular o component did mounth e component willamounth
 
-## UseRef
+## => UseRef
 
 ### usamos quando desejamos persistir um valor durante todo ciclo de vida de um componente sem que ele seja alterado ao atualizar.
 
@@ -31,3 +31,11 @@
 ### Referenciar elementos html, recuperar o elemento
 
 ### salvar valor anterior de um state
+
+## => UseReducer
+
+### Um hook que recebe uma função como parametro, nessa função temos o state e dispatch 
+
+## useState mais complicado, para casos mais complexos,onde no proprio codigo podemos usar o useState  
+
+### usar quando varias propriedades do seu state depender de uma das outras 

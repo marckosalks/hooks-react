@@ -1,10 +1,10 @@
-import Ref from "./hooks/Ref"
+import Reducer from "./hooks/Reducer"
 
 function App() {
  
   return (
     <main>
-      <Ref/>
+      <Reducer/>
     </main>
 
   )
