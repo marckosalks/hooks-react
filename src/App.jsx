@@ -1,10 +1,10 @@
-import Effect from "./hooks/Effect"
+import Ref from "./hooks/Ref"
 
 function App() {
  
   return (
     <main>
-      <Effect/>
+      <Ref/>
     </main>
 
   )

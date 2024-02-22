@@ -21,3 +21,13 @@
 ### dentro da função principal do useEffect não podemos usar async await, criar outra função dentro dele  
 
 ## da para emular o component did mounth e component willamounth
+
+## UseRef
+
+### usamos quando desejamos persistir um valor durante todo ciclo de vida de um componente sem que ele seja alterado ao atualizar.
+
+### Alterar valor do estado sem renderizar o componente novamente 
+
+### Referenciar elementos html, recuperar o elemento
+
+### salvar valor anterior de um state
