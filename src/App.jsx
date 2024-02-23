@@ -1,17 +1,10 @@
-import ThemeContextProvider from "./hooks/Context"
-
-import Greeting from "./hooks/Greeting"
-import Message from "./hooks/Message"
+import Callback from "./hooks/Callback"
 
 
 function App() {
  
   return (
-    <ThemeContextProvider>
-      <Message/>
-      <Greeting/>
-    </ThemeContextProvider>
-
+  <Callback/>    
   )
 }
 

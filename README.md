@@ -49,3 +49,9 @@
 ## => useMemo()
 
 ### Melhorar o gerenciamento de uma função !
+
+### Ele faz o gerenciamento melhor da aplicação 
+
+## => useCallback()
+
+### Problemas de performance
