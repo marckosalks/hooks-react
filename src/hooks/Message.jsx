@@ -1,25 +1,24 @@
 import { ThemeContext } from "./Context"
+import { useContext } from "react"
 
 export default function Message() {
+  
+  const { theme, toggleTheme} = useContext(ThemeContext)
   return (
     <>
-      <ThemeContext.Consumer>
-        {(value) => (
+
+
           <div
           style={ {
             padding: 20,
             borderRadius: 10,
-            backgroundColor: value.theme === "light" ? "#eee" : "#333",
-            color: value.theme === "dark" ? "#eee" : "#333",
+            backgroundColor: theme === "light" ? "#eee" : "#333",
+            color: theme === "dark" ? "#eee" : "#333",
           } }
           >
-            <h1>Tema Atual: {value.theme}</h1>
-            <button onClick={() => value.toggleTheme()}>Mudar para {value.theme === "light" ? "dark" : "light"}</button>
+            <h1>Tema Atual: {theme}</h1>
+            <button onClick={() => toggleTheme()}>Mudar para {theme === "light" ? "dark" : "light"}</button>
           </div>
-        )
-
-        }
-      </ThemeContext.Consumer>
     </>
   )
 }

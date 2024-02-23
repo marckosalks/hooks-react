@@ -43,3 +43,9 @@
 ## => useContext()
 
 ### serve para passar propriedades para uma arvore de components 
+
+### Criamos um contexto com dois valores, usavamos um context.costumer assim podemos passar nosso componente como props e acessamos os valores diretamente no componente que desejamos replicar
+
+## => useMemo()
+
+### Melhorar o gerenciamento de uma função !
