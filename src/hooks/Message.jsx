@@ -13,8 +13,8 @@ export default function Message() {
             color: value.theme === "dark" ? "#eee" : "#333",
           } }
           >
-            <h1>Current theme: {value.theme}</h1>
-            <button onClick={() => value.toggleTheme()}>Toggle Theme</button>
+            <h1>Tema Atual: {value.theme}</h1>
+            <button onClick={() => value.toggleTheme()}>Mudar para {value.theme === "light" ? "dark" : "light"}</button>
           </div>
         )
 

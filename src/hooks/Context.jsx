@@ -14,6 +14,8 @@ export default function ThemeContextProvider({ children }) {
     if(theme === "light"){
       return setTheme("dark")
     }
+
+    return setTheme("light")
   }
 
   return (
